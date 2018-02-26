@@ -32,7 +32,7 @@
         </xs:restriction>
     </xs:simpleType>
 
-    <xs:complexType name="TimecodePoint">
+    <xs:complexType name="TimecodeSequence">
         <xs:sequence>
             <xs:element name="timecodeSource" type="tns:TimecodeSource" minOccurs="1" maxOccurs="1"/>
             <xs:element name="timecode" type="tns:Timecode" minOccurs="1" maxOccurs="1"/>
