@@ -25,10 +25,10 @@
 
     <xs:simpleType name="TimecodeSource">
         <xs:restriction base="xs:string">
-            <xs:enumeration value="ltc"/>
-            <xs:enumeration value="vitc"/>
-            <xs:enumeration value="tod"/>
-            <xs:enumeration value="rs422"/>
+            <xs:enumeration value="LTC"/>
+            <xs:enumeration value="VITC"/>
+            <xs:enumeration value="TOD"/>
+            <xs:enumeration value="RS422"/>
         </xs:restriction>
     </xs:simpleType>
 
